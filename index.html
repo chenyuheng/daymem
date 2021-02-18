@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>日·记</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen, projection"/>
+		<style type="text/css">
+			.date {
+				font-weight: bold;
+				font-size: 0.9em;
+			}
+			.card-panel {
+				background: rgba(255, 244, 233, 0.7);
+			}
+		</style>
+		<script type="text/javascript">
+			function init() {
+				Materialize.toast('开发中~', 400000);
+
+				$(document).ready(function(){
+					$('.fixed').pushpin({
+						top: 0,
+						bottom: 1000,
+						offset: 0
+					});
+				});
+				window.scrollTo(0,document.body.scrollHeight);
+			}
+		</script>
+	</head>
+
+	<body onload="init()">
+		<div class="container">
+			<div class="row fixed">
+				<div class="col s12 left-align">
+					<a class='dropdown-button btn' href='#' data-activates='year'>2021 年</a>
+					<ul id='year' class='dropdown-content'>
+					    <li><a href="#!">2018 年</a></li>
+					    <li><a href="#!">2019 年</a></li>
+					    <li><a href="#!">2020 年</a></li>
+					    <li><a href="#!">2021 年</a></li>
+					</ul>
+					<a class='dropdown-button btn' href='#' data-activates='month'>2 月</a>
+					<ul id='month' class='dropdown-content'>
+					    <li><a href="#!">1 月</a></li>
+					    <li><a href="#!">2 月</a></li>
+					    <li><a href="#!">3 月</a></li>
+					    <li><a href="#!">4 月</a></li>
+					    <li><a href="#!">5 月</a></li>
+					    <li><a href="#!">6 月</a></li>
+					    <li><a href="#!">7 月</a></li>
+					    <li><a href="#!">8 月</a></li>
+					    <li><a href="#!">9 月</a></li>
+					    <li><a href="#!">10 月</a></li>
+					    <li><a href="#!">11 月</a></li>
+					    <li><a href="#!">12 月</a></li>
+					</ul>
+					<a class="btn"><i class="material-icons">add</i></a>
+					<a class="btn"><i class="material-icons">menu</i></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 center-align">
+					<div><a class="btn" style="visibility: hidden;">占位按钮</a></div>
+					<div class="card-panel left-align">
+<span class="date">1日，周一。</span>晴。日记是以日期为排列顺序的笔记。一开始的日记是人们用日记来记录天气、事件一直到个人心理感受以及思想深处。
+					</div>
+					<div class="card-panel left-align">
+<span class="date">2日，周二。</span>晴。日记可以是记录将要做的事情的，也能记录已经发生的事情和心情。
+					</div>
+					<div class="card-panel left-align">
+<span class="date">3日，周三。</span>晴。中国的日记源远流长，有“日录”、“日历”、“日谱”、“日志”、“日谈”、“日注”、“计日”等不同称呼。
+					</div>
+					<div class="chip">周四 / 4 日</div><br/>
+					<div class="chip">周五 / 5 日</div><br/>
+					<div class="chip">周六 / 6 日</div>
+					<div class="card-panel left-align">
+<span class="date red-text">7日，周天。</span>周天是一个特别的日子。
+					</div>
+					<div class="card-panel left-align">
+<span class="date">8日，周一。</span>目前学界认定最早的日记始于西汉。
+					</div>
+					<div class="card-panel left-align">
+<span class="date">9日，周二。</span>经学家俞樾认为日记起源于东汉，如马笃伯《封禅仪记》，就已逐日记叙登泰山之事。
+					</div>
+					<div class="card-panel left-align">
+<span class="date">10日，周三。</span>宋朝是书写日记的繁兴期，北宋时期的政治人物大多有写日记习惯。南宋流行“旅游日记”和“出使日记”，如陆游和范成大的日记，日本、美国分别有译注本或研究论著出版。
+					</div>
+					<div class="card-panel left-align">
+<span class="date">11日，周四。</span>元代郭畀的《客杭日记》，落笔必先写气象：如“初三日，雨”、“初六日，晴”，与现代日记无异。
+					</div>
+					<div class="card-panel left-align">
+<span class="date">12日，周五。</span>清代李慈铭日记逾百万字，薛福成《出使四国日记》（1890年）、梁启超访美《新大陆游记》（1903年）对近代中国产生过巨大影响。
+					</div>
+					<div class="card-panel left-align">
+<span class="date">13日，周六。</span>日记是最私人、最隐私的一种将自己内心感受诸之笔墨的表达方式。传统上，对待每个人的日记时，都必须守着“日记道德”。包括尊重个人日记的隐私、只有在日记主人允许的状况下，方可看其日记，亦不可以偷看人家的日记。日记主人亦应将日记储藏在保密的地方。
+					</div>
+					<div class="card-panel left-align">
+<span class="date red-text">14日，周天。</span>周天是一个特别的日子。
+					</div>
+					<div class="chip">周一 / 15 日</div><br />
+					<div class="chip">周二 / 16 日</div><br />
+					<div class="chip">周三 / 17 日</div><br />
+					<div class="chip">周四 / 18 日</div><br />
+					<div class="chip">周五 / 19 日</div>
+				</div>
+			</div>
+		</div>
+    	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      	<script type="text/javascript" src="js/materialize.min.js"></script>
+	</body>
+</html>
